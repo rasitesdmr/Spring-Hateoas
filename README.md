@@ -61,7 +61,7 @@ http://localhost:8080/h2-console
 
 <img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/rm3.jpg" width="100%" height="50%"/>
 
-## Level 0 : The Swamp of POX (POX bataklığı ) ?
+## 📌 Level 0 : The Swamp of POX (POX bataklığı ) ?
 * Sıfır olgunluk düzeyi URI , http yöntemleri ve hateoas yeteneklerinden hiçbirini kullanamaz.
 * Tek bir URI sahiptir.
 * Tek bir HTTP yöntemine sahiptir.
@@ -69,14 +69,19 @@ http://localhost:8080/h2-console
 * Verileri almak için       POST http://localhost:8080/users
 * Verileri göndermek için   POST http://localhost:8080/users 
 
-## LEVEL 1 : Multiple URI based resource and single verb ? 
+## 📌 LEVEL 1 : Multiple URI based resource and single verb ? 
 * Birçok URI'yi kullanır.
 * Tek bir HTTP yöntemine sahiptir.
 * Örnek verirsek : Bir şirkette çalışanlara erişmemiz gerekiyor.
 * Belirli bir departmana bir çalışan eklemek için (POST/department/<department-id>employee)
 * Belirli bir çalışana erişmek için (POST/department/<department-id>employee)
     
-## LEVEL 2 : Multiple URI based resource and HTTP verbs ?
+## 📌 LEVEL 2 : Multiple URI based resource and HTTP verbs ?
 *	Çok sayıda URI ‘ yi kullanabiliriz.
 *	HTTP yöntemlerini kullanırız (CRUD işlemleri).
+    
+## 📌 LEVEL 3: HATEOAS ? 
+* Level 3 en olgun seviyedir .
+* Hizmet tüketicileri bir kaynak iz boyunca yönlendirerek, sonuç olarak uygulama geçişlerine yardımcı olur.
+
 
