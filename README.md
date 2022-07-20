@@ -90,6 +90,6 @@ http://localhost:8080/h2-console
 
 * RepresentationModel - bir Bağlantı koleksiyonu için bir kapsayıcıdır ve bu bağlantıları modele eklemek için API'ler sağlar.
 
-<img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/rm4.jpg" width="35%" height="50%"/>   
+<img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/image.png" width="35%" height="50%"/>   
 
 
