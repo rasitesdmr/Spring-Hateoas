@@ -61,4 +61,9 @@ http://localhost:8080/h2-console
 <img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/rm3.jpg" width="100%" height="50%"/>
 
 ## Level 0 : The Swamp of POX (POX bataklığı ) ?
-
+* Sıfır olgunluk düzeyi URI , http yöntemleri ve hateoas yeteneklerinden hiçbirini kullanamaz.
+* Tek bir URI sahiptir.
+* Tek bir HTTP yöntemine sahiptir.
+* Örnek verirsek : 
+* Verileri almak için       POST http://localhost:8080/users
+* Verileri göndermek için   POST http://localhost:8080/users 
