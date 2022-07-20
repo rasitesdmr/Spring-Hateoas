@@ -22,7 +22,7 @@
 * Spring Boot Jpa
 * Hateoas
 
-### H2 DB Access
+## H2 DB Access
 ```xml
 http://localhost:8080/h2-console
 ```
@@ -36,3 +36,9 @@ http://localhost:8080/h2-console
 * URI(Uniform Resource Identifier)(Tekdüzen Kaynak Tanımlayıcı)
 * HTTP yöntemleri
 * HATEOAS(Hypermedia as the Engine of Application State) 
+
+## URI(Uniform Resource Identifier) ?
+* İnternet üzerindeki bir kaynağın tam yerini işaret eden (resim veya belge ) standart formata uygun bir karakter dizisidir.
+* Kısacası bir URL'nin altında bulunan kaynağın tam yolunu işaret eder .
+* Örneğin ( https://github.com/rasitesdmr/rasitesdmr )
+* URL ile URI arasındaki fark kısacası URL ana kaynağı gösterir , URI ise detayları .
