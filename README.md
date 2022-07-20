@@ -56,6 +56,7 @@ http://localhost:8080/h2-console
 ## 📌 HATEOAS ? 
 * HATEOAS İngilizce “Hypermedia as the Engine of Application State” cümlesindeki kelimelerin baş harflerinden oluşturulmuş bir kısaltma ve REST API mimarisinin temel özelliklerinden biri. HATEOAS sayesinde istemciler bir REST API’yi nasıl tüketeceklerini bilmeden  o REST API’yi kullanabilirler.
 * Bir web sitesine girdiğinizde sayfada yapabileceğiniz işlemlerin linklerini açık bir şekilde görüp, “şuraya tıklarsam giriş yaparım”, “şuraya tıklarsam kategorileri görürüm”, “şuraya tıklarsam önceki sayfaya” giderim demeniz gibi, bir HATEOAS yapısına uygun bir RestApi’de istemciye hangi kaynakla ilgili ne yapabileceğini açıkça söyler.
+* Başka örnek verecek olursam bir kişinin kaydını getirmek için rest üzerinden gelen cevabın içerisinde o restin diğer yapabileceği tüm yeteneklerinde görülebileceği bir yapı sağlamaktadır. Projemizde başka Rest işlemleri eklediysek silme, güncelleme gibi işlemleri yapabilmek için hangi rest yolunun kullanılması gerektiği gibi bilgileri görüntüler.
 * Şimdi gelelim 0 dan 3' e kadar olan adımlara .
 
 <img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/rm3.jpg" width="100%" height="50%"/>
@@ -67,3 +68,15 @@ http://localhost:8080/h2-console
 * Örnek verirsek : 
 * Verileri almak için       POST http://localhost:8080/users
 * Verileri göndermek için   POST http://localhost:8080/users 
+
+## LEVEL 1 : Multiple URI based resource and single verb ? 
+* Birçok URI'yi kullanır.
+* Tek bir HTTP yöntemine sahiptir.
+* Örnek verirsek : Bir şirkette çalışanlara erişmemiz gerekiyor.
+* Belirli bir departmana bir çalışan eklemek için (POST/department/<department-id>employee)
+* Belirli bir çalışana erişmek için (POST/department/<department-id>employee)
+    
+## LEVEL 2 : Multiple URI based resource and HTTP verbs ?
+*	Çok sayıda URI ‘ yi kullanabiliriz.
+*	HTTP yöntemlerini kullanırız (CRUD işlemleri).
+
