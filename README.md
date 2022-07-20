@@ -73,8 +73,8 @@ http://localhost:8080/h2-console
 * Birçok URI'yi kullanır.
 * Tek bir HTTP yöntemine sahiptir.
 * Örnek verirsek : Bir şirkette çalışanlara erişmemiz gerekiyor.
-* Belirli bir departmana bir çalışan eklemek için (POST/department/<department-id>employee)
-* Belirli bir çalışana erişmek için (POST/department/<department-id>employee)
+* Belirli bir departmana bir çalışan eklemek için POST/department/<department-id>employee
+* Belirli bir çalışana erişmek için POST/department/<department-id>employee
     
 ## 📌 LEVEL 2 : Multiple URI based resource and HTTP verbs ?
 *	Çok sayıda URI ‘ yi kullanabiliriz.
