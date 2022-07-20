@@ -21,3 +21,14 @@
 * Spring Boot AOP
 * Spring Boot Jpa
 * Hateoas
+
+### H2 DB Access
+```xml
+http://localhost:8080/h2-console
+```
+## Richardson Maturity Model (Richardson Olgunluk Modeli) ? 
++ Rest API'lerimizi hangi seviyede olgun olduğunu gösteren bir olgunluk seviyesidir.
++ 4 seviyeden oluşur.
++ 0 dan 3'e çıktıkça daha etkin kullanıldığını ifade etmektedir . 
+
+### Bir hizmetin olgunluğunu belirtirken üç ana faktör vurgulanır .
