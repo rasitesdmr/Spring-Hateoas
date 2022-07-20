@@ -84,8 +84,8 @@ http://localhost:8080/h2-console
 * Level 3 en olgun seviyedir .
 * Hizmet tüketicileri bir kaynak iz boyunca yönlendirerek, sonuç olarak uygulama geçişlerine yardımcı olur.
 
-* Şimdi gelelim kodlara
+## 📌 Şimdi gelelim kodlara
 
-<img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/image.png" width="35%" height="50%"/>
+<img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/image.png" width="35%" height="50%"/>       * RepresentationModel - bir Bağlantı koleksiyonu için bir kapsayıcıdır ve bu bağlantıları modele eklemek için API'ler sağlar.
 
 
