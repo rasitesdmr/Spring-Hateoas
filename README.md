@@ -9,3 +9,15 @@
     <version>2.6.4</version>
 </dependency>
 ```
+## Prerequisites
+* Hateoas
+
+## Used Technologies
+* Spring Boot Validation
+* Lombok
+* H2 DB 
+* Spring Boot Logging
+* Spring Boot Caching
+* Spring Boot AOP
+* Spring Boot Jpa
+* Hateoas
