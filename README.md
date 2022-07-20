@@ -32,7 +32,7 @@ http://localhost:8080/h2-console
 + 0 dan 3'e çıktıkça daha etkin kullanıldığını ifade etmektedir . 
 
 ### Bir hizmetin olgunluğunu belirtirken üç ana faktör vurgulanır .
-- En yukarıdaki resimde görüldüğü gibi 
+  Yukarıdaki resimde görüldüğü gibi 
 * URI(Uniform Resource Identifier)(Tekdüzen Kaynak Tanımlayıcı)
 * HTTP yöntemleri
 * HATEOAS(Hypermedia as the Engine of Application State) 
