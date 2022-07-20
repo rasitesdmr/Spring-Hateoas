@@ -101,5 +101,7 @@ http://localhost:8080/h2-console
 
 * Postman'den kullanıcılarımızı listeleyelim .
 
-<img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/rm5.jpg" width="35%" height="50%"/>
+<img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/rm5.jpg" width="100%" height="50%"/>
+
+<img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/rm5.jpg" width="100%" height="50%"/>
 
