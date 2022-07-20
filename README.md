@@ -73,8 +73,8 @@ http://localhost:8080/h2-console
 * Birçok URI'yi kullanır.
 * Tek bir HTTP yöntemine sahiptir.
 * Örnek verirsek : Bir şirkette çalışanlara erişmemiz gerekiyor.
-* Belirli bir departmana bir çalışan eklemek için POST/department/department-id/employee
-* Belirli bir çalışana erişmek için POST/department/department-id/employee/employee-id
+* Belirli bir departmana bir çalışan eklemek için (POST/department/department-id/employee)
+* Belirli bir çalışana erişmek için (POST/department/department-id/employee/employee-id)
     
 ## 📌 LEVEL 2 : Multiple URI based resource and HTTP verbs ?
 *	Çok sayıda URI ‘ yi kullanabiliriz.
@@ -83,5 +83,7 @@ http://localhost:8080/h2-console
 ## 📌 LEVEL 3: HATEOAS ? 
 * Level 3 en olgun seviyedir .
 * Hizmet tüketicileri bir kaynak iz boyunca yönlendirerek, sonuç olarak uygulama geçişlerine yardımcı olur.
+
+* Şimdi gelelim kodlara
 
 
