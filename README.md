@@ -58,6 +58,6 @@ http://localhost:8080/h2-console
 * Bir web sitesine girdiğinizde sayfada yapabileceğiniz işlemlerin linklerini açık bir şekilde görüp, “şuraya tıklarsam giriş yaparım”, “şuraya tıklarsam kategorileri görürüm”, “şuraya tıklarsam önceki sayfaya” giderim demeniz gibi, bir HATEOAS yapısına uygun bir RestApi’de istemciye hangi kaynakla ilgili ne yapabileceğini açıkça söyler.
 * Şimdi gelelim 0 dan 3' e kadar olan adımlara .
 
-<img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/rm3.jpg" width="95%" height="50%"/>
+<img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/rm3.jpg" width="100%" height="50%"/>
 
 
