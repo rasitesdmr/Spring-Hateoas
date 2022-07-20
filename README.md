@@ -98,3 +98,8 @@ http://localhost:8080/h2-console
 * withSelfRel() - Aynı URI'ye işaret eden ancak kendi kendine ilişkisi olan bir Bağlantı döndürür.
 
 ## 📌 Uygulamamızı çalıştırıp Postman de görelim
+
+* Postman'den kullanıcılarımızı listeleyelim .
+
+<img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/rm5.jpg" width="35%" height="50%"/>
+
