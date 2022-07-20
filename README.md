@@ -46,7 +46,7 @@ http://localhost:8080/h2-console
 ## HTTP (Hyper Text Transfer Protokol) ?
 * Tarayıcı ile sunucu arasında iletişim kurmamıza olanak tanıyan bir protokoldür.
 * HTTP metodları şunlarıdır.
-+ GET : Sunucudaki kaynaklara erişmek için kullanılır
+++ GET : Sunucudaki kaynaklara erişmek için kullanılır
 + POST : Sunucuya veri göndermek için kullanılır . Fakat bu metotda göndereceğimiz parametreler yalnızca mesaj gövdesinde (body) gönderilmektedir   
 + PUT : Servis sağlayıcı üzerindeki kaynağa Id aracılığıyla güncelleriz .
 + HEAD : Servis sağlayıcı hakkında bilgi almak için kullanılır .
