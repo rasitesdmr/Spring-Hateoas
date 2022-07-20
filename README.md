@@ -92,4 +92,7 @@ http://localhost:8080/h2-console
 
 <img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/image.png" width="65%" height="50%"/>   
 
-
+* WebMvcLinkBuilder – Spring MVC denetleyicilerine işaret eden Link örnekleri oluşturmayı kolaylaştırmaya yardımcı olur.
+* linkTo() yöntemi , denetleyici sınıfını inceler ve kök eşlemesini alır.
+* methodOn - Gelen isteğin kullanılacağı class ve hangi metodun hangi parametre olarak işlem yapacağını belirtir.
+* withSelfRel() - Aynı URI'ye işaret eden ancak kendi kendine ilişkisi olan bir Bağlantı döndürür.
