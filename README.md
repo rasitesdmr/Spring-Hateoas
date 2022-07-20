@@ -37,7 +37,7 @@ http://localhost:8080/h2-console
 * HTTP yöntemleri
 * HATEOAS(Hypermedia as the Engine of Application State) 
 
-## URI(Uniform Resource Identifier) ?
+## URI(Uniform Resource Identifier)(Tekdüzen Kaynak Tanımlayıcı) ?
 * İnternet üzerindeki bir kaynağın tam yerini işaret eden (resim veya belge ) standart formata uygun bir karakter dizisidir.
 * Kısacası bir URL'nin altında bulunan kaynağın tam yolunu işaret eder .
 * Örneğin ( https://github.com/rasitesdmr/rasitesdmr )
