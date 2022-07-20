@@ -31,7 +31,7 @@ http://localhost:8080/h2-console
 + 4 seviyeden oluşur.
 + 0 dan 3'e çıktıkça daha etkin kullanıldığını ifade etmektedir . 
 
-### 📌 Bir hizmetin olgunluğunu belirtirken üç ana faktör vurgulanır .
+## 📌 Bir hizmetin olgunluğunu belirtirken üç ana faktör vurgulanır .
   Yukarıdaki resimde görüldüğü gibi 
 * URI(Uniform Resource Identifier)(Tekdüzen Kaynak Tanımlayıcı)
 * HTTP yöntemleri
