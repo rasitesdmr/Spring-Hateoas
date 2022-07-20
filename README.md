@@ -22,7 +22,7 @@
 * Spring Boot Jpa
 * Hateoas
 
-## H2 DB Access
+## 📌 H2 DB Access
 ```xml
 http://localhost:8080/h2-console
 ```
