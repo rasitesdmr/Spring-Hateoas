@@ -46,9 +46,14 @@ http://localhost:8080/h2-console
 ## HTTP (Hyper Text Transfer Protokol) ?
 * Tarayıcı ile sunucu arasında iletişim kurmamıza olanak tanıyan bir protokoldür.
 * HTTP metodları şunlarıdır.
-++ GET : Sunucudaki kaynaklara erişmek için kullanılır
++ GET : Sunucudaki kaynaklara erişmek için kullanılır
 + POST : Sunucuya veri göndermek için kullanılır . Fakat bu metotda göndereceğimiz parametreler yalnızca mesaj gövdesinde (body) gönderilmektedir   
 + PUT : Servis sağlayıcı üzerindeki kaynağa Id aracılığıyla güncelleriz .
 + HEAD : Servis sağlayıcı hakkında bilgi almak için kullanılır .
 + PATCH : Kısmi kaynakları güncellemek için kullanılabilir. Örneğin, kaynağın yalnızca bir alanını güncellemeniz gerektiğinde, PUT yöntemiyle eksiksiz bir kaynak gösterimi göndermek yavaş olabilir ve daha fazla bant genişliği kullanır.
 + DELETE : Belirtilen kaynağı kaldırır.
+
+## HATEOAS ? 
+* HATEOAS İngilizce “Hypermedia as the Engine of Application State” cümlesindeki kelimelerin baş harflerinden oluşturulmuş bir kısaltma ve REST API mimarisinin temel özelliklerinden biri. HATEOAS sayesinde istemciler bir REST API’yi nasıl tüketeceklerini bilmeden  o REST API’yi kullanabilirler.
+* Bir web sitesine girdiğinizde sayfada yapabileceğiniz işlemlerin linklerini açık bir şekilde görüp, “şuraya tıklarsam giriş yaparım”, “şuraya tıklarsam kategorileri görürüm”, “şuraya tıklarsam önceki sayfaya” giderim demeniz gibi, bir HATEOAS yapısına uygun bir RestApi’de istemciye hangi kaynakla ilgili ne yapabileceğini açıkça söyler.
+
