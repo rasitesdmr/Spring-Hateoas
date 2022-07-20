@@ -42,3 +42,13 @@ http://localhost:8080/h2-console
 * Kısacası bir URL'nin altında bulunan kaynağın tam yolunu işaret eder .
 * Örneğin ( https://github.com/rasitesdmr/rasitesdmr )
 * URL ile URI arasındaki fark kısacası URL ana kaynağı gösterir , URI ise detayları .
+
+## HTTP (Hyper Text Transfer Protokol) ?
+* Tarayıcı ile sunucu arasında iletişim kurmamıza olanak tanıyan bir protokoldür.
+* HTTP metodları şunlarıdır.
++ GET : Sunucudaki kaynaklara erişmek için kullanılır
++ POST : Sunucuya veri göndermek için kullanılır . Fakat bu metotda göndereceğimiz parametreler yalnızca mesaj gövdesinde (body) gönderilmektedir   
++ PUT : Servis sağlayıcı üzerindeki kaynağa Id aracılığıyla güncelleriz .
++ HEAD : Servis sağlayıcı hakkında bilgi almak için kullanılır .
++ PATCH : Kısmi kaynakları güncellemek için kullanılabilir. Örneğin, kaynağın yalnızca bir alanını güncellemeniz gerektiğinde, PUT yöntemiyle eksiksiz bir kaynak gösterimi göndermek yavaş olabilir ve daha fazla bant genişliği kullanır.
++ DELETE : Belirtilen kaynağı kaldırır.
