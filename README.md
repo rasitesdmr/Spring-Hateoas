@@ -96,3 +96,5 @@ http://localhost:8080/h2-console
 * linkTo() yöntemi , denetleyici sınıfını inceler ve kök eşlemesini alır.
 * methodOn - Gelen isteğin kullanılacağı class ve hangi metodun hangi parametre olarak işlem yapacağını belirtir.
 * withSelfRel() - Aynı URI'ye işaret eden ancak kendi kendine ilişkisi olan bir Bağlantı döndürür.
+
+## 📌 Uygulamamızı çalıştırıp Postman de görelim
