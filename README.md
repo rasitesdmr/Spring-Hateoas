@@ -56,4 +56,8 @@ http://localhost:8080/h2-console
 ## 📌 HATEOAS ? 
 * HATEOAS İngilizce “Hypermedia as the Engine of Application State” cümlesindeki kelimelerin baş harflerinden oluşturulmuş bir kısaltma ve REST API mimarisinin temel özelliklerinden biri. HATEOAS sayesinde istemciler bir REST API’yi nasıl tüketeceklerini bilmeden  o REST API’yi kullanabilirler.
 * Bir web sitesine girdiğinizde sayfada yapabileceğiniz işlemlerin linklerini açık bir şekilde görüp, “şuraya tıklarsam giriş yaparım”, “şuraya tıklarsam kategorileri görürüm”, “şuraya tıklarsam önceki sayfaya” giderim demeniz gibi, bir HATEOAS yapısına uygun bir RestApi’de istemciye hangi kaynakla ilgili ne yapabileceğini açıkça söyler.
+* Şimdi gelelim 0 dan 3' e kadar olan levellere .
+
+<img src="https://github.com/rasitesdmr/Spring-Hateoas/blob/master/images/rm2.png" width="100%" height="50%"/>
+
 
