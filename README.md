@@ -40,7 +40,7 @@ http://localhost:8080/h2-console
 ## 📌 URI(Uniform Resource Identifier)(Tekdüzen Kaynak Tanımlayıcı) ?
 * İnternet üzerindeki bir kaynağın tam yerini işaret eden (resim veya belge ) standart formata uygun bir karakter dizisidir.
 * Kısacası bir URL'nin altında bulunan kaynağın tam yolunu işaret eder .
-* Örneğin ( https://github.com/rasitesdmr/rasitesdmr )
+* Örneğin ( https://github.com/rasitesdmr/Spring-Hateoas )
 * URL ile URI arasındaki fark kısacası URL ana kaynağı gösterir , URI ise detayları .
 
 ## 📌 HTTP (Hyper Text Transfer Protokol) ?
